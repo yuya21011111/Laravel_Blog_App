@@ -28,7 +28,7 @@
                         Phone
                       </span>
                       <span class="float-right text-muted">
-                        {{ auth()->user()->pohone }}
+                        {{ auth()->user()->phone }}
                       </span>
                     </p>
                     <p class="clearfix">
@@ -39,14 +39,14 @@
                         {{ auth()->user()->email }}
                       </span>
                     </p>
-                    <p class="clearfix">
+                    {{-- <p class="clearfix">
                       <span class="float-left">
                         Twitter
                       </span>
                       <span class="float-right text-muted">
                         <a href="#">@johndeo</a>
                       </span>
-                    </p>
+                    </p> --}}
                   </div>
                 </div>
               </div>
